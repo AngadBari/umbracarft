@@ -8,7 +8,7 @@ const smoochSans = Smooch_Sans({
 
 export const Hero = () => {
   return (
-    <div className="mx-auto mt-20 flex max-w-7xl flex-col items-center justify-center rounded-xl text-center">
+    <div className="mx-auto mt-15 flex max-w-7xl flex-col items-center justify-center rounded-xl text-center">
       <h1 className="bg-gradient-to-b from-neutral-950 to-neutral-500 bg-clip-text text-6xl leading-tight font-bold tracking-tight text-transparent dark:from-white dark:to-neutral-400">
         Craft Beautiful
       </h1>

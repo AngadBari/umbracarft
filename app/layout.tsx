@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "UmbraCraft",
-  description: "Modern UI with Next.js and Tailwind",
+  description: "Modern Box-Shadows for your next project",
 };
 
 export default function RootLayout({

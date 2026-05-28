@@ -42,11 +42,18 @@ export const Button = () => {
           Browse Box Shadows
         </BtnTitle>
       </Btn>
+
     </div>
 
-    <div className=" mx-auto max-w-3xl border-t border-neutral-300 mt-20" >
+    <div className=" mx-auto max-w-3xl text-center mt-10">
+      <p className={` text-pink-500 ${smoochSans.className}`}>
+        This Shadow Only use in Light Mode
+      </p>
+    </div>
 
-      <div className="mt-10 flex items-center justify-center gap-20" >
+    <div className=" mx-auto max-w-3xl border-t border-neutral-300 mt-10" >
+
+      <div className="mt-8 flex items-center justify-center gap-20" >
           <div className=" flex flex-col items-center">
             <h2 className={` font-bold text-3xl ${squadaOne.className}`}>50+</h2>
             <span className={` text-xl text-center text-neutral-500 ${smoochSans.className}`}>
