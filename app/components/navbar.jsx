@@ -27,7 +27,7 @@ export const NavBar = () => {
 
       <div className="flex items-center gap-3">
         <a
-          href="#"
+          href="https://github.com/AngadBari/umbracarft"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-9 w-9 items-center justify-center rounded-md text-neutral-700 transition-all duration-200 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"
@@ -36,7 +36,7 @@ export const NavBar = () => {
         </a>
 
         <a
-          href="#"
+          href="https://x.com/angadbari01"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-9 w-9 items-center justify-center rounded-md text-neutral-700 transition-all duration-200 hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-neutral-800"

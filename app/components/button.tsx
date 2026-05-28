@@ -25,6 +25,7 @@ export const Button = () => {
   return (
     <>
     <div className="mt-10 flex items-center justify-center gap-7" >
+      <a href="https://github.com/AngadBari/umbracarft" target="_blank" rel="noopener noreferrer">
       <Btn className="bg-neutral-900 text-white cursor-pointer" >
         <BtnIcon>
           <IconBrandGithub size={20} />
@@ -33,15 +34,18 @@ export const Button = () => {
           Contribute Here !
         </BtnTitle>
       </Btn>
+      </a>
 
-      <Btn className="bg-neutral-50 text-black shadow cursor-pointer" >
-        <BtnIcon>
-          <IconCode size={20} />
-        </BtnIcon>
-        <BtnTitle className={`text-lg tracking-wider ${smoochSans.className}`} >
-          Browse Box Shadows
-        </BtnTitle>
-      </Btn>
+      <a href="#box-shadows" target="_blank" rel="noopener noreferrer">
+        <Btn className="bg-neutral-50 text-black shadow cursor-pointer" >
+          <BtnIcon>
+            <IconCode size={20} />
+          </BtnIcon>
+          <BtnTitle className={`text-lg tracking-wider ${smoochSans.className}`} >
+            Browse Box Shadows
+          </BtnTitle>
+        </Btn>
+      </a>
 
     </div>
 

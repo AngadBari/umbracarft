@@ -11,7 +11,12 @@ const smoochSans = Smooch_Sans({
 
 export const Shadows = () => {
   return (
-    <div className="mx-auto mt-30  grid max-w-7xl grid-cols-4 gap-10  ">
+    <>
+    <div className=" mx-auto max-w-7xl mt-30  border-b border-neutral-300 ">
+       <h1 id="box-shadows" className={`text-3xl  font-bold`}>Box-Shadows</h1>
+       <span className=" text-sm text-neutral-500 font-mono tracking-tight">All 62 Box-Shadows</span>
+    </div>
+    <div className="mx-auto mt-20    grid max-w-7xl grid-cols-4 gap-10  ">
       <Container
         shadow="shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_-1px_rgba(0,0,0,0.1)]"
         className=" bg-white  h-60 w-60 rounded-2xl shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_-1px_rgba(0,0,0,0.1)] mb-16 " >
@@ -420,6 +425,7 @@ export const Shadows = () => {
             <span className={`text-xl ${smoochSans.className}`}>Shadow 62</span>
         </Container>
     </div>
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ import { SupportButton } from "@/app/components/SupportButton";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen selection:bg-sky-300">
     
      
       <NavBar />
