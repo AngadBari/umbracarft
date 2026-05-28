@@ -16,9 +16,7 @@ export const Shadows = () => {
        <h1 id="box-shadows" className={`text-2xl md:text-3xl  font-bold`}>Box-Shadows</h1>
        <span className=" text-xs md:text-sm text-neutral-500 font-mono tracking-tight">All 62 Box-Shadows</span>
     </div>
-    <div className="mx-auto mt-12  grid grid-cols-1 max-w-7xl sm:grid-cols-2
-      lg:grid-cols-3
-      xl:grid-cols-4 gap-8 justify-items-center  ">
+    <div className="mx-auto mt-12  grid grid-cols-1 max-w-7xl sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center  ">
       <Container
         shadow="shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_-1px_rgba(0,0,0,0.1)]"
         className=" bg-white  h-60 w-60 rounded-2xl shadow-[0_1px_3px_0_rgba(0,0,0,0.1),0_1px_2px_-1px_rgba(0,0,0,0.1)] mb-16 " >
