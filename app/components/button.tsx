@@ -55,7 +55,7 @@ export const Button = () => {
       </p>
     </div>
 
-    <div className=" mx-auto max-w-3xl border-t border-neutral-300 mt-10" >
+    <div className=" mx-auto  max-w-3xl  border-t border-neutral-300 mt-10" >
 
       <div className="mt-8 flex items-center justify-center gap-20" >
           <div className=" flex flex-col items-center">
