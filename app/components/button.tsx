@@ -58,7 +58,7 @@ export const Button = () => {
       <BtnTitle
         className={`text-base tracking-wider sm:text-lg ${smoochSans.className}`}
       >
-        Browse Box Shadows
+        View Box-Shadows
       </BtnTitle>
     </Btn>
   </a>
