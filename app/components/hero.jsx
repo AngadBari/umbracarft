@@ -15,7 +15,7 @@ export const Hero = () => {
 
       <h2 className="mt-2 bg-gradient-to-b from-neutral-950 to-neutral-500 bg-clip-text text-2xl font-bold tracking-tight text-transparent sm:text-4xl md:text-5xl lg:text-6xl dark:from-white dark:to-neutral-400">
         Box Shadows for{" "}
-        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-b from-neutral-950 to-neutral-500 bg-clip-text text-transparent">
           Tailwind CSS
         </span>
       </h2>
