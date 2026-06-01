@@ -4,30 +4,31 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "UmbraCraft",
-  description: "Modern Box-Shadows for your next project",
+  description: "Beautiful UI Components for Developers and Designers",
 
-   openGraph: {
+  openGraph: {
     title: "UmbraCraft",
-    description: "Modern box shadows for developers.",
-    url: "https://umbracarft.vercel.app/",
+    description: "Beautiful UI Components for Developers and Designers",
+    url: "https://your-domain.com",
     siteName: "UmbraCraft",
     images: [
       {
-        url: "img/Banner.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
+        alt: "UmbraCraft",
       },
     ],
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "UmbraCraft",
-    description: "Modern box shadows for developers.",
-    images: ["img/Banner.png"],
+    description: "Beautiful UI Components for Developers and Designers",
+    images: ["/og-image.png"],
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
