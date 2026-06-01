@@ -7,7 +7,7 @@ export const size = {
 
 export const contentType = "image/png";
 
-export default function Image() {
+export default function OpenGraphImage() {
   return new ImageResponse(
     (
       <div
@@ -15,20 +15,41 @@ export default function Image() {
           width: "100%",
           height: "100%",
           display: "flex",
-          background: "#000",
-          color: "#fff",
-          justifyContent: "center",
-          alignItems: "center",
           flexDirection: "column",
+          justifyContent: "center",
+          padding: "60px",
+          background: "#0a0a0a",
+          color: "white",
         }}
       >
-        <h1 style={{ fontSize: 80 }}>
+        <h1
+          style={{
+            fontSize: 80,
+            fontWeight: 700,
+            margin: 0,
+          }}
+        >
           UmbraCraft
         </h1>
 
-        <p style={{ fontSize: 30 }}>
-          Beautiful UI Components
+        <p
+          style={{
+            fontSize: 36,
+            color: "#a3a3a3",
+            marginTop: 20,
+          }}
+        >
+          Modern Box Shadows for Developers & Designers
         </p>
+
+        <div
+          style={{
+            marginTop: 40,
+            fontSize: 28,
+          }}
+        >
+          50+ Shadows • Copy & Paste • Free
+        </div>
       </div>
     ),
     size
