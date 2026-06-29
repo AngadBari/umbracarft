@@ -433,6 +433,36 @@ export const Shadows = () => {
         className=" bg-white  h-60 w-60 rounded-2xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),0px_8px_24px_rgba(17,17,26,0.1),0px_16px_56px_rgba(17,17,26,0.1)] mb-16 " >
             <span className={`text-xl ${smoochSans.className}`}>Shadow 62</span>
         </Container>
+
+          <Container
+        shadow="shadow-[6px_6px_0px_#ff69b4]"
+        className=" bg-white  h-60 w-60 rounded-2xl shadow-[6px_6px_0px_#ff69b4] mb-16 " >
+            <span className={`text-xl ${smoochSans.className}`}>Shadow 63</span>
+        </Container>
+
+         <Container
+        shadow="shadow-[inset_-8px_-8px_15px_rgba(0,0,0,0.25),12px_12px_0px_#000]"
+        className=" bg-white  h-60 w-60 rounded-2xl shadow-[inset_-8px_-8px_15px_rgba(0,0,0,0.25),12px_12px_0px_#000] mb-16 " >
+            <span className={`text-xl ${smoochSans.className}`}>Shadow 64</span>
+        </Container>
+
+        <Container
+        shadow="shadow-[8px_0px_0px_#ff006e,0px_8px_0px_#3a86ff]"
+        className=" bg-white  h-60 w-60 rounded-2xl shadow-[8px_0px_0px_#ff006e,0px_8px_0px_#3a86ff] mb-16 " >
+            <span className={`text-xl ${smoochSans.className}`}>Shadow 65</span>
+        </Container>
+
+          <Container
+        shadow="shadow-[6px_6px_0px_#ff4d6d,12px_12px_0px_#4cc9f0,18px_18px_0px_#000]"
+        className=" bg-white  h-60 w-60 rounded-2xl shadow-[6px_6px_0px_#ff4d6d,12px_12px_0px_#4cc9f0,18px_18px_0px_#000] mb-16 " >
+            <span className={`text-xl ${smoochSans.className}`}>Shadow 66</span>
+        </Container>
+
+          <Container
+        shadow="shadow-[5px_5px_0px_#000,10px_10px_0px_#ffcc00,15px_15px_0px_#000]"
+        className=" bg-white  h-60 w-60 rounded-2xl shadow-[5px_5px_0px_#000,10px_10px_0px_#ffcc00,15px_15px_0px_#000] mb-16 " >
+            <span className={`text-xl ${smoochSans.className}`}>Shadow 67</span>
+        </Container>
     </div>
     </>
   );
