@@ -21,7 +21,7 @@ export const Shadows = () => {
   </h1>
 
   <span className="text-xs tracking-tight text-neutral-500 font-mono sm:text-sm">
-    All 62 Box-Shadows
+    All 67 Box-Shadows
   </span>
 </div>
 
